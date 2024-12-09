@@ -14,7 +14,7 @@ function login() {
         if (users[i].email === user.email && users[i].password === user.password) {
             alert('User logged in successfully');
             sessionStorage.setItem('user', JSON.stringify(users[i]));
-            window.location.href = 'home.html';
+            window.location.assign('home.html');
             return;
         }
     }
