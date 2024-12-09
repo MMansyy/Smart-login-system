@@ -31,7 +31,7 @@ function signUp() {
     localStorage.setItem('users', JSON.stringify(users));
     console.log(users);
     alert('User registered successfully');
-    window.location.assign('index.html');
+    window.location.assign('/index.html');
 }
 
 function validateSignUp(ele) {
