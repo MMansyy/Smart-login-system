@@ -6,5 +6,5 @@ document.querySelector('#name').innerHTML = 'Welcome ' + userName.charAt(0).toUp
 
 logBtn.addEventListener('click', function () {
     sessionStorage.clear();
-    window.location.asssign('./index.html');
+    window.location.assign('./index.html');
 })
